@@ -1,0 +1,497 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+.fl_L{
+  float: left;
+}
+.fl_R{
+  float: right;
+}
+.clear{
+  content: "";
+  display: table;
+  clear: both;
+}
+.conteiner{
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+#top_sfondo{
+  width: 100%;
+  height: 600px;
+  background-image: url('http://www.cademi.it/bundles/fabcademi/img/jumbotron/guitarcouple.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fixed{
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+.logo{
+  width: 25%;
+  height: 100%;
+  overflow: hidden;
+}
+.logo img{
+  width: 80%;
+  height: 80%;
+  padding-top: 10px;
+}
+.login{
+  width: 30%;
+  height: 100%;
+}
+.login span{
+  color: #fff;
+  font-size: 15px;
+  margin-right: 20px;
+  line-height: 80px;
+}
+.login i{
+  color: #fff;
+}
+.iscrizione{
+  width: 80%;
+  height: 60%;
+  position: relative;
+  margin-top: 10%;
+}
+.search, .scegli{
+  width: 100%;
+  height: 50%;
+  padding-top: 20px;
+  text-align: center;
+}
+.search h1{
+  font-size: 40px;
+  color: #fff;
+  font-weight: 600;
+}
+.search h5{
+  color: #fff;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.scegli{
+  width: 60%;
+  height: 70px;
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.conteiner_input{
+  width: 90%;
+  height: 100%;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.conteiner_input input{
+  width: 40%;
+  height: 90%;
+  border-radius: 5px;
+}
+.conteiner_input select{
+  width: 40%;
+  height: 90%;
+}
+.conteiner_input button{
+  width: 15%;
+  height: 90%;
+  color: #fff;
+  background-color: #61AFF7;
+}
+ /* top_info */
+
+.top_info{
+   width: 100%;
+   height: 500px;
+   background: #fff;
+ }
+.square{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+.content_profile{
+  width: 80%;
+  height: 300px;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  position: relative;
+}
+.profile{
+  width: 33%;
+  height: 100%;
+}
+#titolo{
+  width: 90%;
+  height: 100px;
+  color: #568AC5;
+  font-size: 25px;
+  text-align: center;
+}
+#titolo h1{
+  font-weight: 300;
+}
+.profile_img, .profile_text{
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+.profile_img img{
+  position: absolute;
+  top: 35%;
+  left: 35%
+}
+.profile_text h4{
+  color: #568AC5;
+  text-align: center;
+  padding-top: 20px;
+}
+.profile_text p{
+  padding: 20px 20px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+/* main */
+.answear{
+  width: 100%;
+  height: 1800px;
+  background: #F9F9F9;
+}
+.conteiner_info-main{
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.box_info{
+  width: 50%;
+  height: 85%;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+.conteiner_img{
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  background: #568AC5;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-left: 40%;
+  padding-top: 20px;
+}
+.conteiner_img img{
+  width: 130px;
+  height: 130px;
+}
+.box_info h1{
+  font-size: 45px;
+  color: #565a5c;
+  padding-top: 20px;
+  font-weight: 400;
+}
+.box_info h3{
+  font-size: 30px;
+  color: #565a5c;
+  padding-top: 40px;
+  font-weight: 200;
+}
+.box_info p{
+  color: #565a5c;
+  font-size: 15px;
+  padding-top: 20px;
+}
+/* answear_bottom */
+.answear_bottom{
+  width: 100%;
+  height: 700px;
+}
+.online{
+  width: 90%;
+  height: 600px;
+  margin-left: 5%;
+}
+.online_fixed{
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  padding-top: 20px;
+}
+.online_fixed h3{
+  color: #333333;
+  font-size: 45px;
+  font-weight: 300;
+}
+.online_main{
+  width: 100%;
+  height: 100%;
+}
+.online_main-bottom{
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.online_image{
+  width: 100%;
+  height: 55%;
+  overflow: hidden;
+}
+.online_image img{
+  margin-top: 40px;
+  width: 200px;
+  height: 250px;
+}
+.online_main-bottom h3{
+  color: #333333;
+  font-size: 35px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.online_main-bottom p{
+  color: #333333;
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: 200;
+  padding: 0 60px;
+}
+#notebook{
+  width: 300px;
+  height: 200px;
+}
+/* jumbo */
+.jumbo{
+  width: 100%;
+  height: 600px;
+  background-image: url("http://www.cademi.it/bundles/fabcademi/img/jumbotron/banner-home2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.jumbo_box{
+  width: 900px;
+  height: 500px;
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+  text-align: center;
+  padding: 80px;
+}
+.jumbo_box h1{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.jumbo_box h5{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 40px;
+}
+.jumbo_box button{
+  width: 200px;
+  height: 50px;
+  margin-top: 40px;
+  color: #333333;
+  background: #fff;
+  border-radius: 5px;
+}
+/* number */
+.number{
+  width: 100%;
+  height: 400px;
+  background: #fff;
+  position: relative;
+}
+.conteiner_number{
+  width: 60%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 250px;
+}
+.row{
+  width: 100%;
+  height: 150px;
+  position: relative;
+}
+.row h2{
+  text-align: center;
+  color: #333333;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150px;
+}
+.row_main{
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 300px;
+  height: 90px;
+}
+.numeri{
+  width: 20%;
+  height: 100%;
+  margin-right: 5px;
+  border-radius: 15px;
+  background-color: #fff;
+  line-height: 90px;
+  font-size: 50px;
+  padding-left: 5%;
+  border: 1px solid lightgrey;
+}
+.box_batton{
+  width: 250px;
+  height: 60px;
+  margin: 0 auto;
+}
+.box_batton button{
+  width: 100%;
+  height: 100%;
+  background: #568AC5;
+  border: 0;
+  border-radius: 10px;
+}
+/* top_footer */
+.top_footer{
+  width: 100%;
+  height: 200px;
+  background: #F9F9F9;
+}
+.top_footer-header{
+width: 80%;
+height: 80px;
+margin: 0 auto;
+}
+.top_footer-left, .top_footer-right{
+  width: 350px;
+  height: 80px;
+  line-height: 80px;
+  /* background: grey; */
+}
+.top_footer-left h3, .top_footer-right h3{
+  font-size: 18px;
+  font-weight: 200;
+  color: #428bca;
+}
+.top_footer-bottom{
+  width: 100%;
+  height: 120px;
+  padding-left: 20px;
+}
+.lista{
+  width: 20%;
+  height: 100%;
+  margin-right: 10px;
+  color: #333333;
+}
+.lista ul{
+  padding-top: 10px;
+  padding-left: 10px;
+  line-height: 2em;
+  list-style: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+.lista a{
+  text-decoration: none;
+  color: #333333;
+  cursor: pointer;
+}
+.lista h4{
+  padding: 10px 10px 5px;
+  line-height: 1em;
+  font-size: 15px;
+  font-weight: 400;
+}
+.altre::before{
+  content:"...";
+}
+/* footer */
+footer{
+  width: 100%;
+  height: 400px;
+  background: #232323;
+}
+#bck{
+  background: #232323;
+  border-bottom: 1px solid lightgrey;
+}
+.txt{
+  color: #ffffff;
+  padding: 30px 0;
+}
+.contact{
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+.contact a{
+  color: #ffffff;
+  line-height: 2em;
+}
+#mail{
+  font-size: 18px;
+  color: #428bca;
+}
+.box_bottom{
+  width: 60%;
+  height: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.text_bottom{
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  width: 90%;
+  height: 100%;
+}
+.box_img{
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  padding-top: 40px;
+}
+.indirizzo{
+  width: 100%;
+  height: 65px;
+}
+.indirizzo p{
+  font-size: 12px;
+  font-weight: 400;
+  color: #8c8c8c;
+  text-align: center;
+}
+.indirizzo a{
+  color: #fff;
+  text-decoration: none;
+}
+.indirizzo a:hover{
+  text-decoration: underline;
+}
+.box_img img{
+  width: 35%;
+  height: 50%;
+}
